@@ -45,7 +45,7 @@
     height: 100px; 
     background-color: green;
     margin-top: -50px;
-        margin-left: 50px;
+    margin-left: 50px;
    
      } 
     .yellow2 {
@@ -142,7 +142,6 @@
     background-color: 
     green; 
      margin-top: -50px;
-    
 
      } 
     .yellow5 {
@@ -150,7 +149,7 @@
     width: 250px; 
     height: 100px; 
     background-color: gold; 
-    float:right;
+    margin-left: 97px;
     margin-top: -50px;
     } 
 
@@ -164,44 +163,45 @@
 
      /* Activity 6 styles */ 
     .red6 {
-    width: 600px; 
+    width: 750px; 
     height: 100px; 
     background-color: red; 
     } 
+    .text6 {
+    width: 500px;
+    margin-top: -400px;
+    margin-left: 250px;
+     
+}
 
-    .green6 {
-    position:absolute;
-    left: 1;
-    bottom; 
-        z-index:1;
-    
-    width: 300px; 
-    height: 300px; 
-    background-color: green; 
-    
-     } 
-
-    .yellow6 {
-    width: 600px; 
-    height: 300px; 
-    background-color: gold; 
-    margin-top: -300px; 
+    .green6 {/*changed to green*/
+    width: 250px; 
+    height: 250px; 
+    background-color: green;
+    margin-top: -300px;
+        margin-right: 15px; 
     } 
+
+    .yellow6 { /*changed to yellow*/
+    width: 750px; 
+    height: 300px; 
+    background-color: yellow;
+    }
     
     .blue6 {
-    width: 600px; 
+    width: 750px; 
     height: 100px; 
     background-color: blue; 
+    margin-top: 50px; 
     } 
 
-     .activity {
-    word-wrap: break-word;
-    width: 600px; 
+
+    .activity {
+    width: 800px; 
     margin: 20px auto; 
     font-family: Arial, sans-serif; 
     border: 1px solid black; 
-        
-   /* padding: 10px; 
+    padding: 10px; 
     clear:both; 
-    overflow: visible;*/
+    overflow:scroll;
     } 
