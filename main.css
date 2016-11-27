@@ -2,7 +2,7 @@
     footer, 
     ul,
     li 
-        {list-style: none; display: flex; flex: 1 0 6em justify-content: space-around; flex-flow: row wrap;}   
+        {list-style: none; display: flex; flex: 1 0 6em; justify-content: space-around; flex-flow: row wrap;}   
     
     /*PADDING ADDED TO THE "BOX" OR SECTION AND EVERYTHING GETS APPLIED TO SAID BOX. WHEN ADDING PADDING, CONSIDER WHAT IT IS THAT I AM TRYING TO MOVE. PADDING INCREASES ODJECT WITHIN A BOX, MARGIN SEPARATES EACH BOX*/
     
@@ -28,7 +28,7 @@
         {background-color: #073F75; margin-left: .5em; margin-right: -.5em; height: 4.5em;} /* Dark Blue*/
     
     a 
-        {color: aquamarine/*#DB4D54*/; margin-top: -.5em; margin-left: 1em;}  /*For Text-Light Pink*/
+        {color: aquamarine/*#DB4D54*/; margin-top: -.5em; margin-left: 1em; padding: .1em;}  /*For Text-Light Pink*/
     a:hover {color: green;}
     
     img 
