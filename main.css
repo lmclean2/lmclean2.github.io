@@ -1,4 +1,4 @@
-    nav, 
+    
     footer, 
     ul,
     li 
@@ -6,11 +6,11 @@
     
     /*PADDING ADDED TO THE "BOX" OR SECTION AND EVERYTHING GETS APPLIED TO SAID BOX. WHEN ADDING PADDING, CONSIDER WHAT IT IS THAT I AM TRYING TO MOVE. PADDING INCREASES ODJECT WITHIN A BOX, MARGIN SEPARATES EACH BOX*/
     
-    nav, 
+   
     ul, 
     li, 
     a 
-        {font-size: 1.1em; padding: .5em;}
+        {font-size: 1.1em;}
 
     h1
     
@@ -34,7 +34,10 @@
     img 
         {max-width: 100%;}
     
-footer {background-color: bisque; height: 55px; align-items: center;}
+    footer {background-color: bisque; height: 55px; align-items: center;}
+
+    li
+        {margin-right: .5em; }
     
 
 /*IDs*/  
@@ -47,7 +50,7 @@ footer {background-color: bisque; height: 55px; align-items: center;}
    
         
     #logo 
-        {background-color: lightcyan; width: 7.5em; align-items: center;}
+        {background-color: lightcyan; width: 7em;}
 
     #banner 
         {width:100%; margin: .5em;}
