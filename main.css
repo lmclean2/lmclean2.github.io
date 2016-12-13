@@ -86,6 +86,9 @@ nav li
         }
    
    
+#y_t, 
+#f_b,
+#pin_ {max-width: 20%; border-style:solid; margin-left: 2em;}
 
 #bottom-row {text-align: center;}
 
