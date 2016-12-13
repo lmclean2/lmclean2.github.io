@@ -1,12 +1,17 @@
     
-    footer, 
-    ul,
-    li 
-        {list-style: none; display: flex; flex: 1 0 6em; justify-content: space-around; flex-flow: row wrap;}   
+    footer ul, nav ul
+    
+        {list-style: none; display: flex; justify-content: space-around; flex-flow: row wrap;}   
     
     /*PADDING ADDED TO THE "BOX" OR SECTION AND EVERYTHING GETS APPLIED TO SAID BOX. WHEN ADDING PADDING, CONSIDER WHAT IT IS THAT I AM TRYING TO MOVE. PADDING INCREASES ODJECT WITHIN A BOX, MARGIN SEPARATES EACH BOX*/
+    nav ul {margin: 0 0 0 3em; /*top, right, bottom, left*/
     
-   
+    }
+nav li   
+{flex: 1 0 6em;
+        
+    }
+
     ul, 
     li, 
     a 
@@ -15,8 +20,10 @@
     h1
     
         {color: black/*#B54B00*/;
-        font-family: "Herculanum", "Alhambra", sans-serif; /*USE A DIFFERENT FONT FOR HEADLINES AND BODY*/align-items: center;}   
-
+        font-family: "Herculanum", "Alhambra", sans-serif; font-size: 5vw;/*USE A DIFFERENT FONT FOR HEADLINES AND BODY*/align-items: center;}   
+    p 
+        {font-size:2.5vw;
+        }
 
 /*SPECIFICS TO ONE*/
   
@@ -25,20 +32,34 @@
         margin-bottom:  1em;} /* Med Light Blue*/
    
     nav 
-        {background-color: #073F75; margin-left: .5em; margin-right: -.5em; height: 4.5em;} /* Dark Blue*/
+        { 
+            background-color: #073F75; 
+            margin-top: -5.5em;
+            line-height: 4.5em; 
+            
+        }
+                
+                
+            
+            /* Dark Blue*/
     
     a 
-        {color: aquamarine/*#DB4D54*/; margin-top: -.5em; margin-left: 1em; padding: .1em;}  /*For Text-Light Pink*/
+        {color: 
+            aquamarine/*#DB4D54*/; 
+            margin-top: -.5em; 
+            margin-left: 2em; 
+            
+            }  /*For Text-Light Pink*/
     a:hover {color: green;}
     
     img 
         {max-width: 100%;}
     
-    footer {background-color: bisque; height: 55px; align-items: center;}
+    footer {background-color: bisque; height: 5em; align-items: center;}
 
     li
-        {margin-right: .5em; }
-    
+        {margin-left: .5em; }
+
 
 /*IDs*/  
   
@@ -50,17 +71,31 @@
    
         
     #logo 
-        {background-color: lightcyan; width: 7em;}
+        {background-color: white; width: 7em; position: relative; border-style: solid;
+        }
 
     #banner 
-        {width:100%; margin: .5em;}
+        {width:100%; margin-top: 1em; 
+        }
+    #bannerimg, #image, #image2
+        {width:100%;
+        }
+   
 
     
     
 /*CLASSES*/
    
-    .right_col, 
+    .right_col,
     .left_col 
-        {width:40%; flex: 1 0 15em; margin:.5em;}
-  
-    
+        {width:50%; 
+            flex: 1 0 15em; 
+            margin:.5em;}
+  /*  .fb,
+    .pin,
+    .yt
+        {width: 100%; 
+            display: flex; 
+            flex-direction:row;
+    }
+    */
