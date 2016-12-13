@@ -1,12 +1,14 @@
     
     footer ul, nav ul
     
-        {list-style: none; display: flex; justify-content: space-around; flex-flow: row wrap;}   
+        {list-style: none; display: flex; flex-flow: row wrap;}   
     
     /*PADDING ADDED TO THE "BOX" OR SECTION AND EVERYTHING GETS APPLIED TO SAID BOX. WHEN ADDING PADDING, CONSIDER WHAT IT IS THAT I AM TRYING TO MOVE. PADDING INCREASES ODJECT WITHIN A BOX, MARGIN SEPARATES EACH BOX*/
     nav ul {margin: 0 0 0 3em; /*top, right, bottom, left*/
     
     }
+footer p {margin-left: 1em; margin-top: -1em;text-align-last: left;}
+
 nav li   
 {flex: 1 0 6em;
         
@@ -20,7 +22,7 @@ nav li
     h1
     
         {color: black/*#B54B00*/;
-        font-family: "Herculanum", "Alhambra", sans-serif; font-size: 5vw;/*USE A DIFFERENT FONT FOR HEADLINES AND BODY*/align-items: center;}   
+        font-family: "Herculanum", "Alhambra", sans-serif; font-size: 5vw;/*USE A DIFFERENT FONT FOR HEADLINES AND BODY*/align-items: center; text-align: center;}   
     p 
         {font-size:2.5vw;
         }
@@ -55,10 +57,11 @@ nav li
     img 
         {max-width: 100%;}
     
-    footer {background-color: bisque; height: 5em; align-items: center;}
+    footer {background-color: bisque; height: 5em; }
 
     li
-        {margin-left: .5em; }
+        {margin-left: -5em;
+        margin-top:.5em;}
 
 
 /*IDs*/  
@@ -67,7 +70,8 @@ nav li
     #middle-row
         {display:flex;
         flex-flow: row wrap;
-        align-items: center;} 
+        align-items: center;
+        } 
    
         
     #logo 
@@ -81,7 +85,13 @@ nav li
         {width:100%;
         }
    
+   
 
+#bottom-row {text-align: center;}
+
+ 
+
+    
     
     
 /*CLASSES*/
@@ -91,11 +101,5 @@ nav li
         {width:50%; 
             flex: 1 0 15em; 
             margin:.5em;}
-  /*  .fb,
-    .pin,
-    .yt
-        {width: 100%; 
-            display: flex; 
-            flex-direction:row;
-    }
-    */
+
+  
